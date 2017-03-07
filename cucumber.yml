@@ -1,2 +1,2 @@
 ## default profile to run tests locally
-default: BASE_URL=http://www.tstpreview.containerstore.com/ PROFILE=default CONTROLLER=local --format json --out result.json
+default: PROFILE=default CONTROLLER=local --format json --out result.json

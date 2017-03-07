@@ -19,3 +19,13 @@ Given(/^user login to salesforce with (.*) and (.*)$/) do |username, password|
   @driver.find_element(:css, "FORM#editPage>P.small>A[href='/home/home.jsp']").click
   sleep(10)
 end
+
+When(/^user open accounts$/) do
+  @driver.find_element(:css, "A.slds-context-bar__label-action[title='Accounts']").click
+  sleep(5)
+end
+
+When(/^I open new account$/) do
+  @driver.find_element(:css, "A.forceActionLink[title='New']").click
+  sleep(5)
+end

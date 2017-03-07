@@ -4,5 +4,5 @@ Feature: Create contacts
     When user open contacts
     Then I see page with text Contact Owner Alias
   Examples:
-    | username            |password|
-    | nkt.naveen@gmail.com|Asdf!@34|
+    | username              |password|
+    | archanayenna@gmail.com|Asdf!@34|
